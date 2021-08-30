@@ -1,0 +1,52 @@
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    border-radius: 10px 10px 0px 0px;
+    width: 20%;
+    background-color:rgb(31, 65, 158);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+.calculatrice{
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    height:50vh;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.ecran{
+    width: 97%;
+    margin-bottom: 5px;
+    height: 16%;
+    background-color: rgb(64, 160, 224);
+}
+p{
+    float: right;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 18px;
+}
+button{
+    margin-right:5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 23%;
+    height: 15%;
+    font-weight: bold;
+}
+.C{
+    background-color: crimson;
+    color: white;
+}
+.egal{
+    background-color: green;
+    color: white;
+    width: 47.5%;
+}

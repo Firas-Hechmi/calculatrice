@@ -1,0 +1,25 @@
+<div class="title">
+    Calculatrice
+  </div>
+  <div class="calculatrice">
+    <div class="ecran"><p>{{ecran}}</p></div>
+    <button class="C" (click)="onClear()" >C</button>
+    <button>(</button>
+    <button>)</button>
+    <button (click)="onOperator('/')">/</button>
+    <button (click)="onNumber('7')">7 </button>
+    <button (click)="onNumber('8')">8</button>
+    <button (click)="onNumber('9')">9</button>
+    <button (click)="onOperator('*')">*</button>
+    <button (click)="onNumber('4')">4</button>
+    <button (click)="onNumber('5')">5</button>
+    <button (click)="onNumber('6')">6</button>
+    <button (click)="onOperator('-')">-</button>
+    <button (click)="onNumber('1')">1 </button>
+    <button (click)="onNumber('2')">2</button>
+    <button (click)="onNumber('3')">3</button>
+    <button (click)="onOperator('+')">+</button>
+    <button (click)="onNumber('0')">0</button>
+    <button (click)="onNumber('.')">.</button>
+    <button class="egal" (click)="onResult()">=</button>
+  </div>
